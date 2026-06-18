@@ -112,11 +112,10 @@
 
   <nav>
     <button onclick="showSection('home')" id="btn-home" class="active">Home</button>
-    <button onclick="showSection('weblink')">WebLinks</button>
-    <button onclick="showSection('labdata')">LabData</button>
-    <button onclick="showSection('grant')">Grant</button>
+    <button onclick="showSection('work')">Work</button>
+    <button onclick="showSection('family')">Family</button>
+    <button onclick="showSection('code')">Code</button>
     <button onclick="showSection('tailscale')">TailScale</button>
-    <button onclick="showSection('photos')">LabPhotos</button>
   </nav>
 
   <div id="home" class="content-section active">
@@ -128,7 +127,7 @@
 
     </div>
   </div>
-  <div id="weblink" class="content-section">
+  <div id="work" class="content-section">
      <div class="button-group">
       <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" class="btn">PubMed</a>  
 
@@ -136,7 +135,7 @@
 
   </div>
 
-  <div id="labdata" class="content-section">
+  <div id="family" class="content-section">
 
       <div class="button-group">
         <a href="https://docs.google.com/spreadsheets/d/1b9Y2Ebfqopx2BYCn2fh_gkMLYCk1Q8gxHxFIDN1mzTk/edit#gid=0" target="_blank" class="btn">SCN Data</a>
@@ -144,7 +143,7 @@
         <a href="http://10.133.255.242/lablogui.php" target="_blank" class="btn">WormLab Log</a>        
       </div>
   </div>
-  <div id="grant" class="content-section">
+  <div id="code" class="content-section">
       <div class="button-group">
         <a href="https://10.133.119.219/paperweb.html" target="_blank" class="btn">PaperWeb</a>
         <a href="https://10.133.119.219/pdfNew.php" target="_blank" class="btn">PDF Manager</a>
@@ -163,9 +162,6 @@
     </div>
   </div>
 
-    <div id="photos" class="content-section">
-
-  </div>
   <script>
     function showSection(sectionId) {
       const sections = document.querySelectorAll('.content-section');
